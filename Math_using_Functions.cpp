@@ -1,4 +1,4 @@
-/* ---  Q4-- Simple Calculator 
+/* ---  Q4-- Simple Calculator
 
 #include<iostream>
 using namespace std;
@@ -9,7 +9,7 @@ int main(){
     cout<< "Enter the numbers  a and b: ";
     cin>> a >> b;
     cout << endl;
-    cout<< "Enter the Operation : "; 
+    cout<< "Enter the Operation : ";
     cin>>o;
     cout << endl;
     switch(o){
@@ -61,20 +61,20 @@ Q 2 --- Even Odd Program
 
            ex.         10
                        01
-                   ans 00                                                      
+                   ans 00
 
      for 5- 101
             001
             001
-            
-        
+
+
 
 
 
 #include <iostream>
 using namespace std ;
 
-int EvenOdd(int a){            
+int EvenOdd(int a){
     if (a&1){
         return 0;
     }
@@ -161,6 +161,55 @@ int main(){
 }
 
 
-Q5 ---
+Q5 ---  Arithmrtic Progression
+
+
+ #include <iostream>
+ using namespace std;
+ int ArithP(int n){
+    int ans = 3 * n + 7;
+    return ans;
+ }
+int main(){
+    int n;
+    cin>>n;
+    int ans=ArithP(n);
+    cout<<ans<<endl;
+}
+
+
+Q6-- Find the nth Term in Fibonacchi Sequence
+
 
 */
+#include <iostream>
+using namespace std;
+
+int fib(int n)
+{
+    if (n < 2)
+    {
+        return n;
+    }
+    else
+    {
+        int a = 0;
+        int b = 1;
+        int next;
+        for (int i = 2; i <= n; i++)
+        {
+            next = a + b;
+            a = b;
+            b = next;
+        }
+        return next;
+    }
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    int ans = fib(n);
+    cout << ans << endl;
+}
