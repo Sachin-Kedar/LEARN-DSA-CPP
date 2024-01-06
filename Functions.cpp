@@ -128,7 +128,7 @@ Q4 -->>    nCr Value find
  nCr= n fact. / r fact. *(n-r) fact.
 
  ex. 8C2= 8F/(2F * 6F) --> 28
-*/
+
 
 #include <iostream>
 using namespace std ;
@@ -160,3 +160,7 @@ int main(){
     cout << ans <<endl;
 }
 
+
+Q5 ---
+
+*/
