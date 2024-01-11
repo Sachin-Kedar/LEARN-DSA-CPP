@@ -60,7 +60,7 @@ int main(){
 ---  Q3  Reversing an Array
             for Even and Odd both no of elements
 
-*/
+
 #include <iostream>
 using namespace std;
 
@@ -93,4 +93,39 @@ int main()
     PrintArray(arr, 6);
     PrintArray(brr, 7);
     return 0;
+}
+
+
+---  Q4 Swaping Alternating Numbers
+
+*/
+
+#include <iostream>
+using namespace std;
+
+void SwapAlternate(int arr[] , int size){
+    for (int i=0;i<size;i+=2){
+        if (i+1<size){
+            swap(arr[i],arr[i+1]);
+        }
+    }
+}
+
+void printArray(int arr[],int n){
+    for (int i=0;i<n;i++){
+        cout <<arr[i]<<" ";
+
+    }
+    cout <<endl;
+}
+
+int main(){
+    int arr[8]={2,4,5,7,9,8,33,24};
+    int brr[5]={23,45,3,67,1};
+    SwapAlternate(arr,8);
+    printArray(arr,8);
+    SwapAlternate(brr,5);
+    printArray(brr,5);
+    return 0;
+
 }
