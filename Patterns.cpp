@@ -1,4 +1,7 @@
 
+
+
+
 /*  --- Print the below patterns
 Q1
           ****

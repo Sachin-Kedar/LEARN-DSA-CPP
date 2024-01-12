@@ -82,6 +82,8 @@ int main(){
            cout << "Number is not palidrome"<<endl;
     }
 
+    
+
 }
 
 
