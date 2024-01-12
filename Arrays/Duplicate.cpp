@@ -18,7 +18,7 @@ no. of samples      2
                     1
                     3
 
-
+*/
 
 #include <iostream>
 using namespace std;
@@ -40,31 +40,5 @@ int main (){
 
 }
 
-*/
 
-#include <iostream>
-#include<vector>
-using namespace std;
 
-vector<int> DuplicateValue(vector<int> arr){
-    int n = arr.size();
-    for (int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if (arr[i]=arr[j]){
-                cout<<arr[i];
-            }
-        }
-    } 
-    return arr;
-}
-int main(){
-    vector<int> arr = {1,4,7,4,76};
-    vector<int> ans;
-
-    ans = DuplicateValue(arr);
-    for(int i : ans)
-    {
-        cout<< i<<"  ";
-    }
-
-}
