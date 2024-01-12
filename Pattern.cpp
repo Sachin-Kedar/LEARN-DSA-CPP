@@ -8,7 +8,7 @@ Q1
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -34,11 +34,11 @@ number A : 5
 22222
 33333
 44444
-55555             
+55555
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -73,7 +73,7 @@ number A : 7
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -104,7 +104,7 @@ number A : 4
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -125,16 +125,16 @@ int main(){
 
 Q5
 Number A : 5
-1 2 3 4 5 
-6 7 8 9 10 
-11 12 13 14 15 
-16 17 18 19 20 
-21 22 23 24 25 
+1 2 3 4 5
+6 7 8 9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
 
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -166,7 +166,7 @@ number A : 4
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -184,7 +184,7 @@ int main(){
 }
 
 
-Q7 
+Q7
 
 number A : 6
 1
@@ -196,7 +196,7 @@ number A : 6
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -220,7 +220,7 @@ Q8
 
 
 #include<iostream>
-using namespace std;              
+using namespace std;
 int main(){
     int a=5;
     cout <<"number A : ";
@@ -249,23 +249,26 @@ EEEEE
 
 */
 
-
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main (){
-    int n,i=1;
-    cout <<"number : ";
-    cin>> n;
+int main()
+{
+    int n, i = 1;
+    cout << "number : ";
+    cin >> n;
     char a = 65;
-    while (i<=n){
-        int j=1;
-        while(j<=n){
-            cout<< a;
-            j+=1;
+    while (i <= n)
+    {
+        int j = 1;
+        while (j <= n)
+        {
+            cout << a;
+            j += 1;
         }
-        cout<<endl;
-        a+=1;
-        i+=1;
+        cout << endl;
+        a += 1;
+        i += 1;
     }
 }
+
