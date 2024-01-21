@@ -318,6 +318,7 @@ int main (){
     }
 }
 
+Q 11--
 --  Hologram with * 
 ****
 *  *
@@ -345,6 +346,7 @@ int main (){
 }
 
 
+--  Q-12
 ---  Inverted Half Pyramid
 *****
 ****
@@ -367,15 +369,13 @@ int main (){
     }
 }
 
+--  Q-13
 -- Half Pyramid after 180 degree rotation
     *
    **
   ***
  ****
 *****
-
-
-
 
 #include <iostream>
 using namespace std;
@@ -398,7 +398,7 @@ int main (){
     }
 }
 
-
+--- Q -14
 1 2 3 4 5 
 1 2 3 4
 1 2 3
@@ -422,6 +422,7 @@ int main (){
     }
 }
 
+-- Q 15
 1
 01
 101
