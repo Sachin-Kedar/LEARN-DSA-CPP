@@ -250,7 +250,7 @@ CCCCC
 DDDDD
 EEEEE
 
-*/
+
 
 #include <iostream>
 using namespace std;
@@ -275,3 +275,45 @@ int main()
     }
 }
 
+
+-- Q 10 
+
+****
+****
+****
+****
+****
+
+//  using For Loop
+#include <iostream>
+using namespace std;
+
+int main (){
+    int n=5;
+    for (int i=0;i<n;i++){
+        int j=1;
+        for(j;j<n;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+
+*/
+//   using While Loop
+
+#include <iostream>
+using namespace std;
+
+int main (){
+    int n=5;
+    int i=0;
+    while(i<n){
+        
+        for (int j=1;j<n;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+        i++;
+    }
+}
