@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main (){
@@ -6,8 +6,8 @@ int main (){
     cin>>n;
     for(int i=0;i<=n;i++){
         if (i%3==0){
-            break;
+            continue;
         }
-        cout<<n<<endl;
+       cout<<i<<endl;
     }
 }
