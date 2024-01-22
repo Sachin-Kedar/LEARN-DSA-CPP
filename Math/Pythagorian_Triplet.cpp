@@ -1,3 +1,7 @@
+//  Pythagorean Triplet contains three numbers in which the square of max. number is equal to sum of square of other two numbers.
+// if a,b,c in which a is max then  a*a == (b*b + c*c).
+
+
 #include<iostream>
 #include<cmath>
 using namespace std;
