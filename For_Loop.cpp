@@ -84,7 +84,7 @@ int main(){
     }
     cout << "Reversed Number is : "<< digit<<endl ;
 }
-*/
+
 
 // --  Q4 Palindrome Number 
 
@@ -107,13 +107,11 @@ int main(){
     else{
            cout << "Number is not palidrome"<<endl;
     }
-
-    
-
 }
+*/
 
 #include<iostream>
-#include <cmath>
+#include <math.h>
 using namespace std;
 
 int main(){
@@ -122,10 +120,14 @@ int main(){
     cin>>N;
     int temp = N;
     int cnt = 0;
+    int power=0;
     while (temp!= 0) {
         int rem = temp % 10;
-        cnt = cnt + pow(rem, 3);  // Corrected the calculation
+        cnt = cnt + pow(rem, 3) +(1e-9);
+        power= pow(rem, 3);
+        cout<<power<<endl;  // Corrected the calculation
         temp = temp / 10;         // Added the division operation
+        cout<<cnt<<"rem : "<<rem<<endl;
     }
 
     if (cnt == N){
@@ -138,3 +140,30 @@ int main(){
 }
 
 
+
+// #include<iostream>
+// #include <math.h>
+// using namespace std;
+
+// int main(){
+//     int N ;
+//     cout <<"Enter a Number : ";
+//     cin>>N;
+//     int temp = N;
+//     int cnt = 0;
+//     while (temp!= 0) {
+//         int rem = temp % 10;
+
+//         temp = temp / 10;         // Added the division operation
+        
+//     }
+//     cout<<cnt<<
+
+//     if (cnt == N){
+//         cout << "This is an Armstrong number" << endl;
+//     } else {
+//         cout << "This is not an Armstrong number" << endl;
+//     }  
+
+//     return 0;  // Added return statement
+// }
