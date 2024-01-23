@@ -69,11 +69,18 @@ using namespace std;
 
 void Bubblesort(int arr[], int n)
 {
-    for(int i=0;i<n-1;i++){
-        for (int j=0;j<n-1;j++){
+    for(int i=1;i<n;i++){
+        bool swapped=false;
+        for (int j=0;j<n-i;j++){
             if(arr[j]>arr[j+1]){
               swap(arr[j],arr[j+1]);
+              swapped=true;// if the value of arr[j] is less then arr[j+1] for every itheration it means array is already sort.
+                        //  In this case if statement does not work for once also and swapped variable will be always remains false.
             }
+        }
+        if(swapped==false){
+            // if the array is already swapped. //
+            break;
         }
     }
     }
