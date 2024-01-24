@@ -1,7 +1,7 @@
-//  Q3  Reversing an Array
-//            for Even and Odd both no of elements
+//  Q  Reversing an Array
+//       for Even and Odd both no of elements
 
-
+/*
 #include <iostream>
 using namespace std;
 
@@ -33,6 +33,51 @@ int main()
     Reverse(brr, 7);
     PrintArray(arr, 6);
     PrintArray(brr, 7);
+    return 0;
+}
+*/
+
+//  ---  Using vector
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+vector <int> reverse(vector<int> v){
+    int s=0;
+    int e=v.size()-1;
+    while(s<=e){
+        swap(v[s],v[e]);
+        s++;
+        e--;
+    }
+    return v;
+}
+
+void printArray(vector<int> v){
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<" ";
+    }
+    cout<<endl;
+}
+int main(){
+    vector<int> a;
+    a.push_back(11);
+    a.push_back(7);
+    a.push_back(3);
+    a.push_back(12);
+    a.push_back(4);
+    cout<<"original array is : ";
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+
+
+    vector<int> ans= reverse(a);
+    cout<<"Reversed array is : ";
+    printArray(ans);
+
     return 0;
 }
 
