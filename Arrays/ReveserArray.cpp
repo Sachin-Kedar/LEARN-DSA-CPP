@@ -53,6 +53,16 @@ vector <int> reverse(vector<int> v){
     }
     return v;
 }
+    // -->> We can use below code also which will be optimized one.
+
+    //     for (int i = 0; i < a.size() / 2; ++i) {
+    //     // Swap elements from the beginning and end of the array
+    //     int temp = a[i];
+    //     a[i] = a[a.size() - i - 1];
+    //     a[a.size() - i - 1] = temp;
+    // }
+    // return a;
+
 
 void printArray(vector<int> v){
     for(int i=0;i<v.size();i++){
