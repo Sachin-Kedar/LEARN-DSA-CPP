@@ -56,11 +56,7 @@ int main(){
     }
 }
 
-
-
-
 ---  Q4 Swaping Alternating Numbers
-
 */ 
 
 #include <iostream>
