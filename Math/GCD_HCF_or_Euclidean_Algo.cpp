@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int euclideanAlgorithm(int a, int b) {
     while (a > 0 && b > 0) {
@@ -10,16 +11,15 @@ int euclideanAlgorithm(int a, int b) {
 }
 
 int main() {
-    // Example usage:
     int num1, num2;
-    std::cout << "Enter the first number: ";
-    std::cin >> num1;
-    std::cout << "Enter the second number: ";
-    std::cin >> num2;
+    cout << "Enter the first number: ";
+    cin >> num1;
+    cout << "Enter the second number:";
+    cin >> num2;
 
     int gcd = euclideanAlgorithm(num1, num2);
 
-    std::cout << "The GCD of " << num1 << " and " << num2 << " is: " << gcd << std::endl;
+    cout << "The GCD of " << num1 << " and " << num2 << " is: " << gcd <<endl;
 
     return 0;
 }
