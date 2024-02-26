@@ -37,8 +37,8 @@ int FindDuplicate(int arr[],int n){
 
 
 int main (){
-    int arr[7]={6,3,1,5,4,3,2};
-    cout<<FindDuplicate(arr,7)<<endl;
+    int arr[3]={1,1,1};
+    cout<<FindDuplicate(arr,3)<<endl;
 
 }
 

@@ -14,40 +14,9 @@ Output: 3
 Example 2:
 Input: nums = [2,2,1,1,1,2,2]
 Output: 2
+
 */
 
-#include <iostream>
-#include<vector>
-using namespace std;
-
-int majorityElement(int nums[],int n){
-    int j;
-    for (int i = 0; i < n; i++)
-    {
-        int cnt = 0;
-        for (j = i; j < n; j++)
-        {
-            if (nums[i] == nums[j])
-            {
-                cnt++;
-            }
-            if (cnt > n / 2)
-            {
-                return nums[j];
-            }
-        }
-    }
-    return 0;
-}
-int main(){
-    int n=3;
-    int nums[n] = {3, 2, 3};
-    cout<< majorityElement(nums,n)<<endl;
-}
-
-
-// We can write using vector array like below: 
-/*
 #include <iostream>
 #include<vector>
 using namespace std;
@@ -77,4 +46,3 @@ int main(){
     cout<<ans<<endl;
     return 0;
 }
-*/
