@@ -12,5 +12,4 @@ int main(){
     cout<<s1.length()<<endl; //  length and size both works same on strings.
     cout<< s1.size()<<endl;
     cout<< s1.substr(2,3)<<endl;
-    cout<< 
 }
