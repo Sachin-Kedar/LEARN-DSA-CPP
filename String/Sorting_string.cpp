@@ -16,6 +16,7 @@ string countSorting(string str){
         }
     }
     return str;
+
 }
 int main (){
     string str ;
