@@ -1,4 +1,4 @@
-/* Hello Dear
+/*
 // Brute force Solution
 
 #include<bits/stdc++.h>
