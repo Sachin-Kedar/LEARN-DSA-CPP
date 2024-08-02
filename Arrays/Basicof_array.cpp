@@ -1,6 +1,5 @@
 /*
-
---- Q1   Printing sum of all Array elements
+- Q1   Printing sum of all Array elements
 
 #include <iostream>
 using namespace std;
