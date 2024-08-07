@@ -1,3 +1,5 @@
+// Hey Buddy this is 2D array problem and algorithm
+
 #include<bits/stdc++.h>
 using namespace std;
 
