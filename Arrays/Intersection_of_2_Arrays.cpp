@@ -1,4 +1,4 @@
-/*
+/* 
 Problem statement
 You are given two arrays 'A' and 'B' of size 'N' and 'M' respectively. Both these arrays are sorted in non-decreasing order. You have to find the intersection of these two arrays.
 
