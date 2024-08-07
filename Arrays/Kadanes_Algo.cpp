@@ -1,4 +1,4 @@
-
+//  Hello Dear this is Kadane's Algorithm
 #include <bits/stdc++.h>
 using namespace std;
 
